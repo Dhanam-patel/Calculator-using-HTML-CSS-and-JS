@@ -1,0 +1,82 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.whole {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container {
+    height: 63vh;
+    width: 30vw;
+    border: 10px groove white;
+}
+.DisplayBox {
+    height: 15vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display {
+    background-color: black;
+    color: white;
+    height: 12vh;
+    width: 28.5vw;
+    border-radius: 20px;
+    font-size: 4vh;
+    text-align: end;
+    border: 5px groove white;
+}
+.buttons {
+    height: 39.6vh;
+   
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29.5vh;
+}
+.number1-9{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 22.5vw;
+    height: 29.5vh;
+}
+.operators{
+    display: grid;
+    grid-template-columns: auto;
+    height: 29.5vh;
+    width: 10vw;
+}
+.others{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+}
+.operate {
+    margin:0.5vh;
+    border-radius: 10px;
+    font-size: 4.5vh;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.B {
+    margin: 0.5vh;
+    border-radius: 10px;
+    font-size: 4.5vh; 
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+#equals {
+    width: 29.5vw;
+    height: 7vh ;
+}
